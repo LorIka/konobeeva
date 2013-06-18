@@ -8,16 +8,20 @@ public class mainclass {
 	}
 
 	public static void select() throws IOException {
-		System.out.print("Чей проект выхотите запустить? (Konobeeva = 1, Obydennova = 2, Sykhanova = 3)  ");
+		System.out.print("Р§РµР№ РїСЂРѕРµРєС‚ РѕС‚РєСЂС‹С‚СЊ? (Konobeeva = 1, Obydennova = 2, Sykhanova = 3)  ");
 		BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
 		int cons = Integer.parseInt(input.readLine());
 		if (cons == 1) {
 			konobeeva.konobeeva();
 		}
+        if (cons == 3)
+        {
+            Suchanova.suchanova();
+        }
 	}
 
 	public static void ext_sel() throws IOException {
-		System.out.print("Вы хотите продолжить? (1/0) ");
+		System.out.print("Р’С‹ С…РѕС‚РёС‚Рµ РїСЂРѕРґРѕР»Р¶РёС‚СЊ? (1/0) ");
 		BufferedReader input2 = new BufferedReader(new InputStreamReader(System.in));
 		int cont = Integer.parseInt(input2.readLine());
 		if (cont == 1) {

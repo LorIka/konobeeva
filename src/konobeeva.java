@@ -1,6 +1,6 @@
 
 public class konobeeva {
 	public static void konobeeva(){
-	   mainclass.display("Конобеева");
+	   mainclass.display("РљРѕРЅРѕР±РµРµРІР°");
    }
 }
