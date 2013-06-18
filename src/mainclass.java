@@ -14,6 +14,10 @@ public class mainclass {
 		if (cons == 1) {
 			konobeeva.konobeeva();
 		}
+        if (cons == 2)
+        {
+            Obydennova.obydennova();
+        }
         if (cons == 3)
         {
             Suchanova.suchanova();
